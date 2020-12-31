@@ -1,0 +1,76 @@
+/*$secondarycolor: #a57573; pink*/
+
+body{
+  background-color: #fdf8f2;
+font-family: 'p22-mackinac-pro', serif;
+font-weight: 500;
+}
+
+h1, h2, h3, h4, H5, H6{
+  color: #692f17;
+}
+
+#topbar{
+  background-color: #f7cccb;
+}
+
+#topbar button{
+  border-radius: 5px;
+  background-color:#f7cccb;
+  border-color: #692f17;
+  color: #692f17;
+}
+
+#topbar button:hover{
+  background-color: #692f17;
+  color: #f7cccb;
+  border: #692f17;
+}
+
+ul .navbar-nav{
+  color: #f7cccb;
+}
+
+.active{
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  font-weight: bold;
+}
+
+
+.toplink{
+padding-top: 10px;
+}
+
+.topfomo{
+padding-top: 10px;
+padding-right: 7px;
+}
+
+.toplink:hover{
+  text-decoration: none;
+  font-style: italic;
+}
+
+.logo img{
+  width: 50%;
+  height: auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin: 0 auto;
+}
+
+footer{
+  background-color: #692f17;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+color: #692f17;
+}
+
+.navbar-light .navbar-nav:hover{
+color: #692f17;
+}

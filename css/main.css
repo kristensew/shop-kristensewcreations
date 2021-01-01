@@ -41,9 +41,6 @@ ul .navbar-nav{
 
 }
 
-
-
-
 .toplink{
 padding-top: 10px;
 }
@@ -62,8 +59,12 @@ padding-right: 7px;
   font-size: 14px;
 }
 
+input:focus{
+  outline: 0;
+}
+
 .logo img{
-  width: 50%;
+  width: 70%;
   height: auto;
 margin-left: auto;
 margin-right: auto;
@@ -71,13 +72,13 @@ display: block;
 margin: 0 auto;
 }
 
-footer{
+.footerbackground{
   background-color: #692f17;
   margin-top: 500px;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #fff;
+    color: #fff7ee;
 }
 
 .navbar-nav .nav-item.active .nav-link,
@@ -90,8 +91,8 @@ footer{
   width: 100%;
 }
 
-.openingmessage{
-  margin-top: 80px;
+.openingmessage {
+  margin-top: 100px;
 }
 
 
@@ -108,4 +109,8 @@ footer{
 	.navbar .nav-item:hover .nav-link{ color: #f7cccb;  }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.mainlogo{
+  margin-top: -25px;
 }

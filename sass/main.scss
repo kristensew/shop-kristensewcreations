@@ -16,7 +16,7 @@ font-family: 'p22-mackinac-pro', serif;
 font-weight: 500;
 }
 
-h1, h2, h3, h4, H5, H6{
+h1, h2, h3, h4, H5, H6,p{
   color: #692f17;
 }
 
@@ -322,4 +322,12 @@ navbar-toggler{
 
 span{
   font-style: italic;
+}
+
+.mobilecart{
+  position: relative;
+  display:block;
+  @media (min-width: 768px){
+    display:none;
+  }
 }

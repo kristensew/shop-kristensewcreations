@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Frequently Asked Questions</title>
+    <title>Custom Pet Illustration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.typekit.net/bcd7vbc.css">
@@ -221,7 +221,7 @@
                 <li class="nav-item1 ">
                   <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
                 </li >
-                <li class="nav-item1 dropdown">
+                <li class="nav-item1 dropdown ">
      <a class="nav-link  dropdown-toggle" href="shop.html" data-hover="dropdown">  SHOP </a>
      <ul class="dropdown-menu">
        <li><a class="dropdown-item" href="shop.html"> All </a></li>
@@ -232,7 +232,7 @@
        <li><a class="dropdown-item" href="shop-misc.html"> Misc. </a></li>
        </ul>
         </li>
-                <li class="nav-item1 ">
+                <li class="nav-item1 active">
                   <a class="nav-link" href="services.html">SERVICES</a>
                 </li>
                 </ul>
@@ -240,7 +240,7 @@
 
 
                   <ul class="navbar-nav ml-auto">
-                <li class="nav-item1 active">
+                <li class="nav-item1">
                   <a class="nav-link" href="faq.html">FAQ</a>
                 </li>
                 <li class="nav-item1 ">
@@ -250,118 +250,353 @@
                   <a class="nav-link" href="contact.html">CONTACT</a>
                 </li>
               </ul>
-
+            </div>
           </nav>
 
-<main>
-  <hr>
-  <div>
-    <h5 class="faqtitle">Q: What is your turn around time?</h5>
-    <h6><span>Physical Products:</span> shipping times may vary.</h6>
-    <h6><span>Digital Illustrations:</span> shipping times may vary.</h6>
-    <br>
-  </div>
-  <hr>
-  <div>
-    <h5 class="faqtitle">Q: Is my custom digital illustration going to be printed and shipped?</h5>
-    <h6>All custom digital illustrations will be given via email. </h6>
-    <br>
-  </div>
-  <hr>
-  <div>
-    <h5 class="faqtitle">Q: Will my illustration print out with a good quality?</h5>
-    <h6>Yes! After I draw your illustrations, I upload them into Adobe Illustrator to vectorize them. Vecotorizing means that the drawing turns into a vector, which ensures a high-quality print that will not be pixelated or fuzzy! </h6>
-    <br>
-  </div>
-  <hr>
-  <div>
-    <h5 class="faqtitle">Q: What design tools do you use to design your products?</h5>
-    <h6>I use the app "Procreate" on my iPad for ALL of my work! </h6>
-    <br>
-  </div>
-  <hr>
-  <div>
-    <h5 class="faqtitle">Q: Where should I go print my custom illustration?</h5>
-    <h6>Many clients chose local stores like CVS, Walgreens, Target or Walmart to print their illustrations as a high quality print for an afforadble price.</h6>
-    <br>
-  </div>
-  <hr>
-  <div>
-    <h5 class="faqtitle">Q: Will the vinyl design come off on my shirt when I wash it?</h5>
-    <h6>Physical Products: shipping times may vary.</h6>
-    <h6>Digital Illustrations: shipping times may vary.</h6>
-    <br>
-  </div>
-  <hr>
-  <div>
-    <h5 class="faqtitle">Q: What is your return policy?</h5>
-    <h6>We are currently not accepting returns; however, if there is an issue with your order, please fill out the form on our <a href="contact.html">contact page</a> or contact kristen.sew@gmail.com directly. </h6>
-    <br>
-  </div>
-  <hr>
-</main>
+<br>
+<br>
+
+<div id='product-component-1610057900138'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'kristen-sew-creations-co.myshopify.com',
+      storefrontAccessToken: 'adc44f7a3bdae456866b4c2db92525d5',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '6140459122880',
+        node: document.getElementById('product-component-1610057900138'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        },
+        "text-align": "left"
+      },
+      "title": {
+        "font-family": "Gill Sans, sans-serif",
+        "font-weight": "normal",
+        "font-size": "26px",
+        "color": "#692f17"
+      },
+      "button": {
+        "font-family": "Gill Sans, sans-serif",
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17",
+          "background-color": "#deb8b7"
+        },
+        "background-color": "#f7cccb",
+        ":focus": {
+          "background-color": "#deb8b7"
+        },
+        "border-radius": "13px",
+        "padding-left": "58px",
+        "padding-right": "58px"
+      },
+      "price": {
+        "font-family": "Gill Sans, sans-serif",
+        "font-size": "18px",
+        "color": "#692f17"
+      },
+      "compareAt": {
+        "font-family": "Gill Sans, sans-serif",
+        "font-size": "15.299999999999999px",
+        "color": "#692f17"
+      },
+      "unitPrice": {
+        "font-family": "Gill Sans, sans-serif",
+        "font-size": "15.299999999999999px",
+        "color": "#692f17"
+      },
+      "description": {
+        "font-family": "Gill Sans, sans-serif",
+        "color": "#692f17"
+      }
+    },
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true,
+      "description": true
+    },
+    "width": "100%",
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Gill Sans, sans-serif",
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17",
+          "background-color": "#deb8b7"
+        },
+        "background-color": "#f7cccb",
+        ":focus": {
+          "background-color": "#deb8b7"
+        },
+        "border-radius": "13px",
+        "padding-left": "58px",
+        "padding-right": "58px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Gill Sans, sans-serif",
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17",
+          "background-color": "#deb8b7"
+        },
+        "background-color": "#f7cccb",
+        ":focus": {
+          "background-color": "#deb8b7"
+        },
+        "border-radius": "13px"
+      },
+      "title": {
+        "color": "#692f17"
+      },
+      "header": {
+        "color": "#692f17"
+      },
+      "lineItems": {
+        "color": "#692f17"
+      },
+      "subtotalText": {
+        "color": "#692f17"
+      },
+      "subtotal": {
+        "color": "#692f17"
+      },
+      "notice": {
+        "color": "#692f17"
+      },
+      "currency": {
+        "color": "#692f17"
+      },
+      "close": {
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17"
+        }
+      },
+      "empty": {
+        "color": "#692f17"
+      },
+      "noteDescription": {
+        "color": "#692f17"
+      },
+      "discountText": {
+        "color": "#692f17"
+      },
+      "discountIcon": {
+        "fill": "#692f17"
+      },
+      "discountAmount": {
+        "color": "#692f17"
+      },
+      "cart": {
+        "background-color": "#f7cccb"
+      },
+      "footer": {
+        "background-color": "#f7cccb"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "empty": "Your cart is empty. ",
+      "button": "Checkout"
+    },
+    "contents": {
+      "note": true
+    },
+    "popup": false
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Gill Sans, sans-serif",
+        "background-color": "#f7cccb",
+        ":hover": {
+          "background-color": "#deb8b7"
+        },
+        ":focus": {
+          "background-color": "#deb8b7"
+        }
+      },
+      "count": {
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17"
+        }
+      },
+      "iconPath": {
+        "fill": "#692f17"
+      }
+    }
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#692f17"
+      },
+      "title": {
+        "color": "#692f17"
+      },
+      "price": {
+        "color": "#692f17"
+      },
+      "fullPrice": {
+        "color": "#692f17"
+      },
+      "discount": {
+        "color": "#692f17"
+      },
+      "discountIcon": {
+        "fill": "#692f17"
+      },
+      "quantity": {
+        "color": "#692f17"
+      },
+      "quantityIncrement": {
+        "color": "#692f17",
+        "border-color": "#692f17"
+      },
+      "quantityDecrement": {
+        "color": "#692f17",
+        "border-color": "#692f17"
+      },
+      "quantityInput": {
+        "color": "#692f17",
+        "border-color": "#692f17"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+<br>
+<br>
+
+<div class="container">
+<footer class="float-left col-12 footerbackground">
+
+<div class="logoset ">
+<a href="index.html"><img src="images/me_illustration.png" class="col-4 col-md-3 col-lg-2 " alt="logo of kristens face"></a>
+<br>
+<a href="index.html"><img src="images/SVG/logo_cream.svg" class="col-4 col-md-3 col-lg-2 mainlogo float-left" alt="kristen sew creations co logo"></a>
+</div>
+
+<div class="footertags">
+<ul class="float-left list-unstyled footertags2">
+<a href="index.html"><li class="tagbold">Home</li></a>
+<a href="#"><li>Featured</li></a>
+<a href="#"><li>Meet the Owner</li></a>
+</ul>
+<ul class="float-left list-unstyled footertags2">
+<a href="shop.html"><li class="tagbold">Shop</li></a>
+<a href="#"><li>All</li></a>
+<a href="#"><li>Stickers</li></a>
+<a href="#"><li>Prints</li></a>
+<a href="#"><li>Cards & Stationery</li></a>
+<a href="#"><li>Apparel</li></a>
+<a href="#"><li>Misc.</li></a>
+</ul>
+<ul class="float-left list-unstyled footertags2">
+<a href="services.html"><li class="tagbold">Services</li></a>
+<a href="#"><li>Logo & Branding</li></a>
+<a href="#"><li>Digital Illustration</li></a>
+<a href="#"><li>Web Design</li></a>
+</ul>
+<ul class="float-left list-unstyled footertags2">
+<a href="faq.html"><li class="tagbold">FAQs</li></a>
+</ul>
+<ul class="float-left list-unstyled footertags2">
+<a href="about.html"><li class="tagbold">About</li></a>
+<a href="#"><li>Meet the Owner</li>
+</ul>
+<ul class="float-left list-unstyled footertags2">
+<a href="contact.html"><li class="tagbold">Contact</li></a>
+</ul>
+</div>
+
+<ul class="list-unstyled">
+<li class=" float-left col-2 col-md-1 "><a href="https://www.instagram.com/kristensewcreations/" target="_blank"><img src="images/insta.png" class="img-fluid instagramlogo" alt="instagram app icon" onmouseover="this.src = 'images/insta_pink.png'" onmouseout="this.src = 'images/insta.png'"></a></li> <!--social media-->
+
+</ul>
+</footer>
+</div>
 
 
-  </div>
 
 
-
-          <div class="container">
-                  <footer class="float-left col-12 footerbackground">
-
-          <div class="logoset ">
-              <a href="index.html"><img src="images/me_illustration.png" class="col-4 col-md-3 col-lg-2 " alt="logo of kristens face"></a>
-          <br>
-              <a href="index.html"><img src="images/SVG/logo_cream.svg" class="col-4 col-md-3 col-lg-2 mainlogo float-left" alt="kristen sew creations co logo"></a>
-            </div>
-
-              <div class="footertags">
-                <ul class="float-left list-unstyled footertags2">
-                  <a href="index.html"><li class="tagbold">Home</li></a>
-                  <a href="#"><li>Featured</li></a>
-                  <a href="#"><li>Meet the Owner</li></a>
-                </ul>
-                <ul class="float-left list-unstyled footertags2">
-                  <a href="shop.html"><li class="tagbold">Shop</li></a>
-                  <a href="#"><li>All</li></a>
-                  <a href="#"><li>Stickers</li></a>
-                  <a href="#"><li>Prints</li></a>
-                  <a href="#"><li>Cards & Stationery</li></a>
-                  <a href="#"><li>Apparel</li></a>
-                  <a href="#"><li>Misc.</li></a>
-                </ul>
-                <ul class="float-left list-unstyled footertags2">
-                  <a href="services.html"><li class="tagbold">Services</li></a>
-                  <a href="#"><li>Logo & Branding</li></a>
-                  <a href="#"><li>Digital Illustration</li></a>
-                  <a href="#"><li>Web Design</li></a>
-                </ul>
-                <ul class="float-left list-unstyled footertags2">
-                  <a href="faq.html"><li class="tagbold">FAQs</li></a>
-                </ul>
-                <ul class="float-left list-unstyled footertags2">
-                  <a href="about.html"><li class="tagbold">About</li></a>
-                  <a href="#"><li>Meet the Owner</li>
-                </ul>
-                <ul class="float-left list-unstyled footertags2">
-                  <a href="contact.html"><li class="tagbold">Contact</li></a>
-                </ul>
-              </div>
-
-          <ul class="list-unstyled">
-              <li class=" float-left col-2 col-md-1 "><a href="https://www.instagram.com/kristensewcreations/" target="_blank"><img src="images/insta.png" class="img-fluid instagramlogo" alt="instagram app icon" onmouseover="this.src = 'images/insta_pink.png'" onmouseout="this.src = 'images/insta.png'"></a></li> <!--social media-->
-
-              </ul>
-            </footer>
-          </div>
-
-
-
-
-  <!--bootstrap-->
+<!--bootstrap-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-  </body>
+</body>
 </html>

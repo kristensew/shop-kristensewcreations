@@ -11,27 +11,31 @@
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="manifest" href="images/site.webmanifest">
+
   </head>
   <body>
 
     <div id="topbar">
       <div class="container">
 
-      <nav class="navbar navbar-light">
-        <a href="https://www.kristensew.com" class="toplink" id="portfolio" target="_blank"><h5>PORTFOLIO</h5></a>
+      <nav class="navbar navbar-dark">
+        <a href="https://www.kristensew.com" class="toplink" id="portfolio" target="_blank"><h6>PORTFOLIO</h6></a>
         <form class="form-inline mx-auto">
           <h6 class="topfomo">GOT FOMO?</h6>
         <input class="form-control mr-sm-2" type="search" placeholder="example@gmail.com" aria-label="Search">
         <button class=" my-2 my-sm-0" type="submit">subscribe</button>
         </form>
-        <a href="#" class="toplink"><h5>CART(0)</h5></a>
+        <a href="#" class="toplink"><h6>CART(0)</h6></a>
 
 
       </nav>
     </div>
     </div>
 
+
   <div class="container">
+
+
 
     <nav class="navbar navbar-expand-md navbar-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,29 +43,39 @@
           </button>
             <div class="collapse navbar-collapse " id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item ">
+                <li class="nav-item1">
                   <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
                 </li >
-                <li class="nav-item ">
-                  <a class="nav-link" href="shop.html">SHOP</a>
-                </li>
-                <li class="nav-item">
+
+                <li class="nav-item1 dropdown">
+	   <a class="nav-link  dropdown-toggle" href="shop.html" data-hover="dropdown">  SHOP </a>
+     <ul class="dropdown-menu">
+       <li><a class="dropdown-item" href="shop.html"> All </a></li>
+       <li><a class="dropdown-item" href="shop-stickers.html"> Stickers</a></li>
+       <li><a class="dropdown-item" href="shop-prints.html"> Prints </a></li>
+       <li><a class="dropdown-item" href="shop-stationery.html"> Cards & Stationery</a></li>
+       <li><a class="dropdown-item" href="shop-apparel.html"> Apparel </a></li>
+       <li><a class="dropdown-item" href="shop-misc.html"> Misc. </a></li>
+       </ul>
+        </li>
+
+                <li class="nav-item1">
                   <a class="nav-link" href="services.html">SERVICES</a>
                 </li>
                 </ul>
 
-                <a class="navbar-brand logo img-fluid" href="index.html">
-                  <img src="images/300ppi/logo.png" alt="kristen sew creations co. logo">
+                <a class="navbar-brand logo img-fluid mx-auto " href="index.html">
+                  <img src="images/SVG/logo.svg" alt="kristen sew creations co. logo">
                 </a>
 
                   <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item1">
                   <a class="nav-link" href="faq.html">FAQ</a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item1 ">
                   <a class="nav-link" href="about.html">ABOUT </a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item1 active">
                   <a class="nav-link" href="contact.html">CONTACT</a>
                 </li>
               </ul>
@@ -70,21 +84,81 @@
 
 
 
+<form action="contact.php"  method="post" enctype="plain" class="col-12 float-left contactform">
 
 
+<div class="contactform mr-auto ml-auto">
+  <h5>What's on your mind? Let's Chat.</h5>
 
+  <label class="" for="firstname">first name</label>
+  <br>
+  <input name="FirstName" class="col-12 col-md-8" type="text"  placeholder="first" id="firstname">
+<br>
+  <label class="" for="lastname">last name</label>
+  <br>
+  <input name="LastName" class="col-12 col-md-8  mr-auto ml-auto" type="text"  placeholder="last" id="lastname">
+<br>
+  <label class="" for="email">email</label>
+  <br>
+  <input name="E-Mail" class="col-12 col-md-8 mr-auto ml-auto" type="email"  value="" placeholder="example@gmail.com" id="email">
 
-          <footer class="float-left col-12 ">
-    <ul class="list-unstyled">
+  <label class="col-4" for="message">message</label>
+  <textarea name="Message" class="col-12 col-md-8 mr-auto ml-auto"  placeholder="begin typing here..." id="message"></textarea>
+  <br>
+<button type="submit" class="shopbutton">submit</button>
+</div>
 
-      <img src="images/" alt="logo of kristens face">
-      <img src="images/" alt="kristen sew creations co logo">
+</form>
 
-      <li class=" float-left col-2 col-md-1"><a href="https://www.instagram.com/kristensewcreations/" target="_blank"><img src="images/insta_2.png" class="img-fluid social" alt="instagram app icon" onmouseover="this.src = 'images/instagramhover.png'" onmouseout="this.src = 'images/insta_2.png'"></a></li> <!--social media-->
+    </div>
 
-      <li class=" float-right col-2 col-md-1"><a href="#"><img alt="up arrow" class="img-fluid arrow" src="images/arrow.png" onmouseover="this.src = 'images/arrow_hover.png'" onmouseout="this.src = 'images/arrow.png'"></a></li>
-      </ul>
-    </footer>
+    <div class="container">
+            <footer class="float-left col-12 footerbackground">
+
+  <div class="logoset ">
+        <a href="index.html"><img src="images/me_illustration.png" class="col-4 col-md-3 col-lg-2 " alt="logo of kristens face"></a>
+  <br>
+        <a href="index.html"><img src="images/SVG/logo_cream.svg" class="col-4 col-md-3 col-lg-2 mainlogo float-left" alt="kristen sew creations co logo"></a>
+      </div>
+
+        <div class="footertags">
+          <ul class="float-left list-unstyled footertags2">
+            <a href="index.html"><li class="tagbold">Home</li></a>
+            <a href="#"><li>Featured</li></a>
+            <a href="#"><li>Meet the Owner</li></a>
+          </ul>
+          <ul class="float-left list-unstyled footertags2">
+            <a href="shop.html"><li class="tagbold">Shop</li></a>
+            <a href="#"><li>All</li></a>
+            <a href="#"><li>Stickers</li></a>
+            <a href="#"><li>Prints</li></a>
+            <a href="#"><li>Cards & Stationery</li></a>
+            <a href="#"><li>Apparel</li></a>
+            <a href="#"><li>Misc.</li></a>
+          </ul>
+          <ul class="float-left list-unstyled footertags2">
+            <a href="services.html"><li class="tagbold">Services</li></a>
+            <a href="#"><li>Logo & Branding</li></a>
+            <a href="#"><li>Digital Illustration</li></a>
+            <a href="#"><li>Web Design</li></a>
+          </ul>
+          <ul class="float-left list-unstyled footertags2">
+            <a href="faq.html"><li class="tagbold">FAQs</li></a>
+          </ul>
+          <ul class="float-left list-unstyled footertags2">
+            <a href="about.html"><li class="tagbold">About</li></a>
+            <a href="#"><li>Meet the Owner</li>
+          </ul>
+          <ul class="float-left list-unstyled footertags2">
+            <a href="contact.html"><li class="tagbold">Contact</li></a>
+          </ul>
+        </div>
+
+  <ul class="list-unstyled">
+        <li class=" float-left col-2 col-md-1 "><a href="https://www.instagram.com/kristensewcreations/" target="_blank"><img src="images/insta.png" class="img-fluid instagramlogo" alt="instagram app icon" onmouseover="this.src = 'images/insta_pink.png'" onmouseout="this.src = 'images/insta.png'"></a></li> <!--social media-->
+
+        </ul>
+      </footer>
     </div>
 
 

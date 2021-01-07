@@ -1,103 +1,125 @@
+/*brown*/
+/*green*/
+/*pink*/
 /*$secondarycolor: #f7cccb; pink*/
-
-body{
+body {
   background-color: #fdf8f2;
-font-family: 'p22-mackinac-pro', serif;
-font-weight: 500;
+  font-family: 'p22-mackinac-pro', serif;
+  font-weight: 500;
 }
 
-h1, h2, h3, h4, H5, H6{
+h1, h2, h3, h4, H5, H6 {
   color: #692f17;
 }
 
-#topbar{
+#topbar {
   background-color: #f7cccb;
 }
 
-#topbar button{
+@media (max-width: 768px) {
+  #topbar {
+    display: none;
+  }
+}
+
+#topbar button {
   border-radius: 5px;
-  background-color:#f7cccb;
+  background-color: #f7cccb;
   border-color: #692f17;
   color: #692f17;
 }
 
-#topbar button:hover{
+#topbar button:hover {
   background-color: #692f17;
   color: #f7cccb;
   border: 0;
   padding: 4px;
   padding-right: 10px;
   padding-left: 6px;
-  outline:none;
+  outline: none;
   text-decoration: none;
 }
 
-ul .navbar-nav{
+ul .navbar-nav {
   color: #f7cccb;
 }
 
-.active{
+.active {
   font-weight: bold;
-
+  text-decoration: underline wavy;
 }
 
-.toplink{
-padding-top: 10px;
+.toplink {
+  padding-top: 10px;
 }
 
-.topfomo{
-padding-top: 10px;
-padding-right: 7px;
+.topfomo {
+  padding-top: 10px;
+  padding-right: 7px;
 }
 
-.toplink:hover{
+.toplink:hover {
   text-decoration: none;
   font-style: italic;
 }
 
-::placeholder{
+::placeholder {
   font-size: 14px;
 }
 
-input:focus{
+input:focus {
   outline: 0;
 }
 
-.logo img{
+.logo img {
   width: 70%;
   height: auto;
-margin-left: auto;
-margin-right: auto;
-display: block;
-margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin: 0 auto;
 }
 
-.footerbackground{
+.footerbackground {
   background-color: #692f17;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #fff7ee;
+  color: #fff7ee;
+}
+
+.navbar-nav .nav-item1 .nav-link {
+  color: #692f17;
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: #f7cccb;
+  color: #f7cccb;
 }
 
-.mainimage{
+.navbar-nav .nav-item1.active .nav-link {
+  color: #692f17;
+}
+
+.navbar-nav .nav-item1:hover .nav-link {
+  color: #f7cccb;
+}
+
+.mainimage {
   position: absolute;
   width: 100%;
 }
 
-.shopbutton{
+.shopbutton {
   background-color: transparent;
   border-radius: 7px;
   border-color: #692f17;
   color: #692f17;
 }
 
-.shopbutton:hover{
+.shopbutton:hover {
   color: #fdf8f2;
   background-color: #692f17;
   border: 0;
@@ -110,58 +132,217 @@ margin: 0 auto;
   margin-top: 100px;
 }
 
-
-.openingmessage h1{
+.openingmessage h1 {
   margin-bottom: -8px;
 }
 
-.navbar-light .navbar-nav >.nav-link, .navbar-light .navbar-nav, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav > .nav-link, .navbar-light .navbar-nav, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
   color: #fff7ee;
 }
 
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ color: #f7cccb;  }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #f7cccb;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
 }
 
-.mainlogo{
-  margin-top: -25px;
+@media all and (min-width: 992px) {
+  .navbar .nav-item1 .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item1:hover .nav-link {
+    color: #f7cccb;
+  }
+  .navbar .nav-item1:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item1 .dropdown-menu {
+    margin-top: 0;
+  }
 }
 
-article img{
+article img {
   margin-top: 180px;
   float: left;
 }
 
-.marg{
+.marg {
   width: 100%;
   margin-bottom: 13px;
 }
 
-.meetowner{
+.meetowner {
   margin-top: 50px;
   font-weight: bold;
 }
 
-.instagramheader h2{
+.instagramheader h2 {
   margin-top: 50px;
   text-align: center;
   font-weight: bold;
 }
 
-.instagramheader h6{
+.instagramheader h6 {
   text-align: center;
 }
 
-.instagramheader1 h2{
+.instagramheader1 h2 {
   margin-top: 230px;
   text-align: center;
   font-weight: bold;
 }
 
-.instagramheader1 h6{
+.instagramheader1 h6 {
   text-align: center;
   margin-bottom: -140px;
+}
+
+.instagramlogo {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.footertags a {
+  color: #fdf8f2;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footertags a :hover {
+  color: #f7cccb;
+  text-decoration: none;
+}
+
+.tagbold {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: -150px;
+}
+
+.footertags2 {
+  margin-right: 14px;
+}
+
+.contactform {
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.contactform h5 {
+  margin-bottom: 10px;
+}
+
+.contactform label {
+  color: #692f17;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contactform input, .contactform textarea {
+  background-color: transparent;
+  border-radius: 7px;
+  border: #692f17 solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brownnav {
+  color: #692f17;
+}
+
+.secondarynav {
+  text-align: center;
+  text-decoration: none;
+  color: #e09594;
+  margin-left: 13px;
+}
+
+.secondarynav a {
+  text-decoration: none;
+  color: #e09594;
+}
+
+.secondarynav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.secondarynav li :hover {
+  color: #cc7776;
+}
+
+hr {
+  color: #e09594;
+  border: 2px solid;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+.secondhr {
+  color: #e09594;
+  border: 2px solid;
+  margin-top: 62px;
+  margin-bottom: 6px;
+}
+
+navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-brand img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 10px;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 50%;
+    margin-top: 22px;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-brand img {
+    width: 38%;
+    margin-top: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand img {
+    width: 23%;
+    margin-top: 2px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand img {
+    width: 20%;
+  }
+}
+
+.outsideprice {
+  font-weight: bold;
+}
+
+.faqtitle {
+  font-weight: bold;
+}
+
+span {
+  font-style: italic;
 }

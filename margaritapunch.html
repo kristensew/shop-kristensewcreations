@@ -600,6 +600,25 @@
             </footer>
           </div>
 
+          <script>
+    function addToCartMobileClick() {
+
+if (!/product/.test(window.location.href)){
+return;
+}
+
+        var btn = document.querySelector(`#mst-stiky-box button`);
+
+btn.addEventListener('click', function(){
+var atc = document.querySelector(`.grid__item.row_grid_qnt button`);
+
+atc.click();
+});
+    }
+
+addToCartMobileClick()
+</script>
+
 
 
 

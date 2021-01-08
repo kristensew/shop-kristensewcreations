@@ -120,10 +120,30 @@ input:focus {
   color: #692f17;
   padding-left: 11px;
   padding-right: 11px;
-  margin-left: 12px;
+}
+
+.shopbutton1 {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 7px;
+  border-color: #692f17;
+  color: #692f17;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-left: 15px;
 }
 
 .shopbutton:hover {
+  color: #fdf8f2;
+  background-color: #692f17;
+  border: 0;
+  padding: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+}
+
+.shopbutton1:hover {
   color: #fdf8f2;
   background-color: #692f17;
   border: 0;
@@ -190,6 +210,24 @@ article img {
   font-weight: bold;
 }
 
+@media (max-width: 576px) {
+  .meetowner {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .meetowner {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .meetowner {
+    padding-top: 210px;
+  }
+}
+
 .instagramheader h2 {
   margin-top: 50px;
   text-align: center;
@@ -204,6 +242,16 @@ article img {
   margin-top: 230px;
   text-align: center;
   font-weight: bold;
+}
+
+.instagramheader2 {
+  margin-top: 90px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mainshop {
+  margin-top: -160px;
 }
 
 .instagramheader1 h6 {
@@ -409,5 +457,13 @@ span {
 }
 
 .pictureofme {
-  border-radius: 8%;
+  border-radius: 12%;
+  margin-top: 50px;
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  .keepup {
+    padding-top: 70px;
+  }
 }

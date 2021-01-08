@@ -411,13 +411,13 @@ span {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .goodmobilecart {
     display: block;
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .goodmobilecart {
     display: none !important;
   }

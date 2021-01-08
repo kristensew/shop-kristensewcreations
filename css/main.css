@@ -362,3 +362,52 @@ span {
     display: none;
   }
 }
+
+.breadcrumbs li {
+  display: inline;
+  color: #692f17;
+  font-size: 12px;
+}
+
+.breadcrumbs li a {
+  color: #692f17;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .breadcrumbs .prevnext {
+    margin-left: 140px;
+  }
+}
+
+@media (min-width: 576px) {
+  .breadcrumbs .prevnext {
+    margin-left: 140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .breadcrumbs .prevnext {
+    margin-left: 340px;
+  }
+}
+
+@media (min-width: 992px) {
+  .breadcrumbs .prevnext {
+    margin-left: 580px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .breadcrumbs .prevnext {
+    margin-left: 755px;
+  }
+}
+
+.dropdown-item {
+  color: #692f17;
+}
+
+.pictureofme {
+  border-radius: 8%;
+}

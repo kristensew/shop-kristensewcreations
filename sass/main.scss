@@ -337,3 +337,41 @@ span{
     display:none;
   }
 }
+
+.breadcrumbs{
+  li{
+    display:inline;
+    color: $primarycolor;
+    font-size: 12px;
+  }
+  li a {
+    color: $primarycolor;
+    text-decoration: none;
+  }
+  .prevnext{
+    @media (max-width: 576px){
+      margin-left: 140px;
+    }
+    @media (min-width: 576px){
+      margin-left: 140px;
+    }
+    @media (min-width: 768px){
+      margin-left: 340px;
+    }
+    @media (min-width: 992px){
+      margin-left: 580px;
+    }
+    @media (min-width: 1200px){
+      margin-left: 755px;
+    }
+
+  }
+}
+
+.dropdown-item{
+  color: $primarycolor;
+}
+
+.pictureofme{
+  border-radius: 8%;
+}

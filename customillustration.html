@@ -272,6 +272,22 @@
 <div id='product-component-1610057900138' class="col-12"></div>
 <script type="text/javascript">
 /*<![CDATA[*/
+function addToCartMobileClick() {
+
+if (!/product/.test(window.location.href)){
+return;
+}
+
+    var btn = document.querySelector(`#mst-stiky-box button`);
+
+btn.addEventListener('click', function(){
+var atc = document.querySelector(`.grid__item.row_grid_qnt button`);
+
+atc.click();
+});
+}
+
+addToCartMobileClick()
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
   if (window.ShopifyBuy) {
@@ -551,24 +567,7 @@
 /*]]>*/
 </script>
 
-<script>
-    function addToCartMobileClick() {
 
-if (!/product/.test(window.location.href)){
-return;
-}
-
-        var btn = document.querySelector(`#mst-stiky-box button`);
-
-btn.addEventListener('click', function(){
-var atc = document.querySelector(`.grid__item.row_grid_qnt button`);
-
-atc.click();
-});
-    }
-
-addToCartMobileClick()
-</script>
 
 <br>
 <br>

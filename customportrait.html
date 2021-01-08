@@ -609,15 +609,22 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-          var a = document.querySelector(`.grid__item > #AddToCart.dynamic_paybtn`);
-var fakeATC = document.querySelector(`#mst-stiky-box button`);
+function addToCartMobileClick() {
 
-if (!fakeATC || !a)return;
-fakeATC.addEventListener('click', function(){
-a.click();
+if (!/product/.test(window.location.href)){
+return;
+}
+
+var btn = document.querySelector(`#mst-stiky-box button`);
+
+btn.addEventListener('click', function(){
+var atc = document.querySelector(`.grid__item.row_grid_qnt button`);
+
+atc.click();
 });
-            });
+}
+
+addToCartMobileClick()
 </script>
 
 </body>

@@ -216,8 +216,9 @@
 
   <div class="container">
 
-    <!--CODE FOR THE CART IN THE LEFT MOBILE CORNER-->
-    <div id='product-component-thisismymobilecart' class="mobilecart"></div>
+    <!--CODE FOR THE CART IN THE left UPPER mobile CORNER-->
+    <div class="goodmobilecart">
+    <div id='product-component-thisismynewcart'></div>
               <script type="text/javascript">
               /*<![CDATA[*/
               (function () {
@@ -246,7 +247,7 @@
                   ShopifyBuy.UI.onReady(client).then(function (ui) {
                     ui.createComponent('cart', {
                       id: '6138990002368',
-                      node: document.getElementById('product-component-thisismymobilecart'),
+                      node: document.getElementById('product-component-thisismynewcart'),
                       moneyFormat: '%24%7B%7Bamount%7D%7D',
                       options: {
 
@@ -392,7 +393,8 @@
               })();
               /*]]>*/
               </script>
-              <!--END CODE FOR THE CART IN THE LEFT MOBILE CORNER-->
+</div>
+              <!--END CODE FOR THE CART IN THE left UPPER mobile CORNER-->
 
     <nav class="navbar navbar-expand-md navbar-dark">
       <a class="navbar-brand logo img-fluid mx-auto " href="index.html">

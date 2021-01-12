@@ -271,6 +271,10 @@ article img{
   margin-right: 14px;
 }
 
+form{
+  margin: 0 auto;
+}
+
 .contactform{
 display: block;
   margin-bottom: 30px;
@@ -290,8 +294,12 @@ input, textarea{
   margin-left: auto;
   margin-right: auto;
 }
-
+.message{
+  padding-left: 0;
 }
+}
+
+
 
 .brownnav{
   color: $primarycolor;

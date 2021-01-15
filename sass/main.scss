@@ -429,7 +429,8 @@ span{
 
 .pictureofme{
   border-radius: 12%;
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   display:block;
 }
 
@@ -437,4 +438,8 @@ span{
   @media (min-width: 1200px){
     padding-top: 70px;
   }
+}
+
+.navbar-toggler{
+  margin-top: 32px;
 }

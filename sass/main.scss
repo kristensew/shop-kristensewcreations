@@ -276,24 +276,32 @@ article img{
 
 .footertags a{
   color: #fdf8f2;
-  font-size: 12px;
+  font-size: 13.2px;
   text-decoration: none;
+  margin-bottom: -15px;
 }
 
 
-.footertags a :hover{
+.footertags a:hover{
   color: #f7cccb;
   text-decoration: none;
 }
 
-.tagbold {
+.tagbold a{
   font-weight: bold;
   font-size: 18px;
-  margin-top: -150px;
+  margin-top: 50px;
+color: #fdf8f2;
+text-decoration: none;
+:hover{
+  color: #f7cccb;
+}
 }
 
 .footertags2{
   margin-right: 14px;
+  margin-top: -90px;
+  position: relative;
 }
 
 

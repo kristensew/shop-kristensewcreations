@@ -153,6 +153,31 @@ input:focus {
   text-decoration: none;
 }
 
+.shopbutton1 a:hover {
+  color: #fdf8f2;
+  background-color: #692f17;
+  border: 0;
+  padding: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+}
+
+.newbutton {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 7px;
+  border-color: #692f17;
+  color: #692f17;
+}
+
+.newbutton:hover {
+  z-index: 99;
+  position: relative;
+  color: #fdf8f2;
+  background-color: #692f17;
+}
+
 .openingmessage {
   margin-top: 100px;
 }

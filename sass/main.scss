@@ -175,7 +175,16 @@ border: 2px solid;
 border-radius: 7px;
 border-color: #692f17;
 color: #692f17;
+
 }
+
+.shopsticker{
+  @media(max-width: 768px){
+  height: 100px;
+  margin-bottom: 420px;
+}
+}
+
 
 .newbutton:hover{
   z-index: 99;

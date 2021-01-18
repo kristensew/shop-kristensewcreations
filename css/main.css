@@ -178,6 +178,10 @@ input:focus {
   background-color: #692f17;
 }
 
+.newbutton:focus {
+  outline: none;
+}
+
 .openingmessage {
   margin-top: 100px;
 }
@@ -456,6 +460,8 @@ span {
 @media (max-width: 768px) {
   .goodmobilecart {
     display: block;
+    margin-bottom: -90px;
+    padding-top: 30px;
   }
 }
 

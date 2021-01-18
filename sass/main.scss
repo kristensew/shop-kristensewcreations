@@ -184,6 +184,10 @@ color: #692f17;
   background-color: #692f17;
 }
 
+.newbutton:focus{
+  outline:none;
+}
+
 
 .openingmessage {
   margin-top: 100px;
@@ -419,6 +423,8 @@ span{
   position: relative;
   @media(max-width: 768px){
     display:block;
+    margin-bottom: -90px;
+    padding-top: 30px;
   }
   @media(min-width: 768px){
     display:none !important;

@@ -349,6 +349,13 @@ input, textarea{
 }
 
 .secondarynav{
+  @media(max-width:768px){
+    li{
+      a{
+      margin-right: -9px;
+    }
+    }
+  }
   text-align: center;
   text-decoration: none;
   color: #e09594;
@@ -378,6 +385,9 @@ hr{
   border: 2px solid;
   margin-top: 62px;
   margin-bottom: 6px;
+  @media (max-width:768px){
+    width: 410px;
+  }
 }
 
 navbar-toggler{

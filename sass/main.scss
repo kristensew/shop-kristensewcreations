@@ -292,6 +292,9 @@ article img{
   font-size: 13.2px;
   text-decoration: none;
   margin-bottom: -15px;
+  @media(max-width: 768px){
+    font-size: 13.1px;
+  }
 }
 
 
@@ -502,4 +505,20 @@ span{
 
 .navbar-toggler{
   margin-top: 32px;
+}
+
+
+.logoset{
+  @media(max-width:768px){
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 110px;
+  }
+}
+
+.writtenlogo{
+  @media(min-width: 768px){
+    float:left;
+  }
 }

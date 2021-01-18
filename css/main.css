@@ -171,6 +171,10 @@ input:focus {
   color: #692f17;
 }
 
+.readmore {
+  margin-left: 12px;
+}
+
 @media (max-width: 768px) {
   .shopsticker {
     height: 100px;
@@ -248,19 +252,19 @@ article img {
 
 @media (max-width: 576px) {
   .meetowner {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 }
 
 @media (min-width: 576px) {
   .meetowner {
-    padding-top: 50px;
+    padding-top: 30px;
   }
 }
 
 @media (min-width: 768px) {
   .meetowner {
-    padding-top: 210px;
+    padding-top: 130px;
   }
 }
 

@@ -455,6 +455,8 @@ span {
 
 .goodmobilecart {
   position: relative;
+  width: 70px;
+  z-index: 99;
 }
 
 @media (max-width: 768px) {

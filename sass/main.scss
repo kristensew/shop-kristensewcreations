@@ -305,7 +305,7 @@ article img{
 
 .tagbold a{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 50px;
 color: #fdf8f2;
 text-decoration: none;
@@ -315,8 +315,13 @@ text-decoration: none;
 }
 
 .footertags2{
-  margin-right: 14px;
-  margin-top: -90px;
+  @media(min-width:768px){
+  margin-left: 180px;
+}
+@media(min-width:992px){
+margin-left: 200px;
+}
+  margin-top: -200px;
   position: relative;
 }
 

@@ -335,6 +335,10 @@ article img {
   color: #f7cccb;
 }
 
+.tagbold a:hover {
+  color: #f7cccb;
+}
+
 .footertags2 {
   margin-top: -200px;
   position: relative;

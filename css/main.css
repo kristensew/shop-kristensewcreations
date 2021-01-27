@@ -245,6 +245,10 @@ article img {
   margin-bottom: 13px;
 }
 
+.topfeatured {
+  border-radius: 20px;
+}
+
 .meetowner {
   margin-top: 50px;
   font-weight: bold;

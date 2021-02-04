@@ -132,8 +132,8 @@ margin: 0 auto;
   background-color: transparent;
   border: 2px solid;
   border-radius: 7px;
-  border-color: #692f17;
-  color: #692f17;
+  border-color: #fff;
+  color: #fff;
   padding-left: 11px;
   padding-right: 11px;
   margin-left: 15px;
@@ -150,8 +150,8 @@ margin: 0 auto;
 }
 
 .shopbutton1:hover{
-  color: #fdf8f2;
-  background-color: #692f17;
+  color: $primarycolor;
+  background-color: $thirdcolor;
   border: 0;
   padding: 3px;
   padding-left: 12px;
@@ -203,8 +203,25 @@ color: #692f17;
 
 
 .openingmessage {
-  margin-top: 100px;
+  margin-top: 150px;
+  h1, h2, h6{
+  color: #fff;
 }
+
+@media (max-width: 768px){
+  h1{
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: -50px;
+}
+
+h2{
+  font-size: 20px;
+}
+}
+}
+
+
 
 
 .openingmessage h1{

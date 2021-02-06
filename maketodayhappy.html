@@ -449,294 +449,297 @@
     <li>/</li>
     <li><a href="shop.html">Shop</a></li>
     <li>/</li>
-    <li><a href="oohbabymug.html">Make Today Happy Crewneck Sweatshirt</a></li>
+    <li><a href="shop-apparel.html">Apparel</a></li>
+    <li>/</li>
+    <li><a href="maketodayhappy.html">Make Today Happy Crewneck Sweatshirt</a></li>
     </ul>
   </article>
 
 
 
 
-  <div id='product-component-1611803783423'></div>
-  <script type="text/javascript">
-  /*<![CDATA[*/
-  (function () {
-    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-    if (window.ShopifyBuy) {
-      if (window.ShopifyBuy.UI) {
-        ShopifyBuyInit();
-      } else {
-        loadScript();
-      }
+  <div id='product-component-1612624745265'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
     } else {
       loadScript();
     }
-    function loadScript() {
-      var script = document.createElement('script');
-      script.async = true;
-      script.src = scriptURL;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-      script.onload = ShopifyBuyInit;
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'kristen-sew-creations-co.myshopify.com',
+      storefrontAccessToken: 'adc44f7a3bdae456866b4c2db92525d5',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '6181851103424',
+        node: document.getElementById('product-component-1612624745265'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        },
+        "text-align": "left"
+      },
+      "title": {
+        "font-family": "Gill Sans, sans-serif",
+        "font-weight": "normal",
+        "font-size": "26px",
+        "color": "#692f17"
+      },
+      "button": {
+        "font-family": "Gill Sans, sans-serif",
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17",
+          "background-color": "#deb8b7"
+        },
+        "background-color": "#f7cccb",
+        ":focus": {
+          "background-color": "#deb8b7"
+        },
+        "border-radius": "13px",
+        "padding-left": "58px",
+        "padding-right": "58px"
+      },
+      "price": {
+        "font-family": "Gill Sans, sans-serif",
+        "font-size": "18px",
+        "color": "#692f17"
+      },
+      "compareAt": {
+        "font-family": "Gill Sans, sans-serif",
+        "font-size": "15.299999999999999px",
+        "color": "#692f17"
+      },
+      "unitPrice": {
+        "font-family": "Gill Sans, sans-serif",
+        "font-size": "15.299999999999999px",
+        "color": "#692f17"
+      },
+      "description": {
+        "font-family": "Gill Sans, sans-serif",
+        "color": "#692f17"
+      }
+    },
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true,
+      "description": true
+    },
+    "width": "100%",
+    "text": {
+      "button": "Add to cart"
     }
-    function ShopifyBuyInit() {
-      var client = ShopifyBuy.buildClient({
-        domain: 'kristen-sew-creations-co.myshopify.com',
-        storefrontAccessToken: 'adc44f7a3bdae456866b4c2db92525d5',
-      });
-      ShopifyBuy.UI.onReady(client).then(function (ui) {
-        ui.createComponent('product', {
-          id: '6167898456256',
-          node: document.getElementById('product-component-1611803783423'),
-          moneyFormat: '%24%7B%7Bamount%7D%7D',
-          options: {
-    "product": {
-      "styles": {
-        "product": {
-          "@media (min-width: 601px)": {
-            "max-width": "100%",
-            "margin-left": "0",
-            "margin-bottom": "50px"
-          },
-          "text-align": "left"
-        },
-        "title": {
-          "font-family": "Gill Sans, sans-serif",
-          "font-weight": "normal",
-          "font-size": "26px",
-          "color": "#692f17"
-        },
-        "button": {
-          "font-family": "Gill Sans, sans-serif",
-          "color": "#692f17",
-          ":hover": {
-            "color": "#692f17",
-            "background-color": "#deb8b7"
-          },
-          "background-color": "#f7cccb",
-          ":focus": {
-            "background-color": "#deb8b7"
-          },
-          "border-radius": "13px",
-          "padding-left": "58px",
-          "padding-right": "58px"
-        },
-        "price": {
-          "font-family": "Gill Sans, sans-serif",
-          "font-size": "18px",
-          "color": "#692f17"
-        },
-        "compareAt": {
-          "font-family": "Gill Sans, sans-serif",
-          "font-size": "15.299999999999999px",
-          "color": "#692f17"
-        },
-        "unitPrice": {
-          "font-family": "Gill Sans, sans-serif",
-          "font-size": "15.299999999999999px",
-          "color": "#692f17"
-        },
-        "description": {
-          "font-family": "Gill Sans, sans-serif",
-          "color": "#692f17"
-        }
-      },
-      "layout": "horizontal",
-      "contents": {
-        "img": false,
-        "imgWithCarousel": true,
-        "button": false,
-        "buttonWithQuantity": true,
-        "description": true
-      },
-      "width": "100%",
-      "text": {
-        "button": "Add to cart"
-      }
-    },
-    "productSet": {
-      "styles": {
-        "products": {
-          "@media (min-width: 601px)": {
-            "margin-left": "-20px"
-          }
-        }
-      }
-    },
-    "modalProduct": {
-      "contents": {
-        "img": false,
-        "imgWithCarousel": true,
-        "button": false,
-        "buttonWithQuantity": true
-      },
-      "styles": {
-        "product": {
-          "@media (min-width: 601px)": {
-            "max-width": "100%",
-            "margin-left": "0px",
-            "margin-bottom": "0px"
-          }
-        },
-        "button": {
-          "font-family": "Gill Sans, sans-serif",
-          "color": "#692f17",
-          ":hover": {
-            "color": "#692f17",
-            "background-color": "#deb8b7"
-          },
-          "background-color": "#f7cccb",
-          ":focus": {
-            "background-color": "#deb8b7"
-          },
-          "border-radius": "13px",
-          "padding-left": "58px",
-          "padding-right": "58px"
-        }
-      },
-      "text": {
-        "button": "Add to cart"
-      }
-    },
-    "cart": {
-      "styles": {
-        "button": {
-          "font-family": "Gill Sans, sans-serif",
-          "color": "#692f17",
-          ":hover": {
-            "color": "#692f17",
-            "background-color": "#deb8b7"
-          },
-          "background-color": "#f7cccb",
-          ":focus": {
-            "background-color": "#deb8b7"
-          },
-          "border-radius": "13px"
-        },
-        "title": {
-          "color": "#692f17"
-        },
-        "header": {
-          "color": "#692f17"
-        },
-        "lineItems": {
-          "color": "#692f17"
-        },
-        "subtotalText": {
-          "color": "#692f17"
-        },
-        "subtotal": {
-          "color": "#692f17"
-        },
-        "notice": {
-          "color": "#692f17"
-        },
-        "currency": {
-          "color": "#692f17"
-        },
-        "close": {
-          "color": "#692f17",
-          ":hover": {
-            "color": "#692f17"
-          }
-        },
-        "empty": {
-          "color": "#692f17"
-        },
-        "noteDescription": {
-          "color": "#692f17"
-        },
-        "discountText": {
-          "color": "#692f17"
-        },
-        "discountIcon": {
-          "fill": "#692f17"
-        },
-        "discountAmount": {
-          "color": "#692f17"
-        },
-        "cart": {
-          "background-color": "#f7cccb"
-        },
-        "footer": {
-          "background-color": "#f7cccb"
-        }
-      },
-      "text": {
-        "total": "Subtotal",
-        "empty": "Your cart is empty. ",
-        "button": "Checkout"
-      },
-      "contents": {
-        "note": true
-      },
-      "popup": false
-    },
-    "toggle": {
-      "styles": {
-        "toggle": {
-          "font-family": "Gill Sans, sans-serif",
-          "background-color": "#f7cccb",
-          ":hover": {
-            "background-color": "#deb8b7"
-          },
-          ":focus": {
-            "background-color": "#deb8b7"
-          }
-        },
-        "count": {
-          "color": "#692f17",
-          ":hover": {
-            "color": "#692f17"
-          }
-        },
-        "iconPath": {
-          "fill": "#692f17"
-        }
-      }
-    },
-    "lineItem": {
-      "styles": {
-        "variantTitle": {
-          "color": "#692f17"
-        },
-        "title": {
-          "color": "#692f17"
-        },
-        "price": {
-          "color": "#692f17"
-        },
-        "fullPrice": {
-          "color": "#692f17"
-        },
-        "discount": {
-          "color": "#692f17"
-        },
-        "discountIcon": {
-          "fill": "#692f17"
-        },
-        "quantity": {
-          "color": "#692f17"
-        },
-        "quantityIncrement": {
-          "color": "#692f17",
-          "border-color": "#692f17"
-        },
-        "quantityDecrement": {
-          "color": "#692f17",
-          "border-color": "#692f17"
-        },
-        "quantityInput": {
-          "color": "#692f17",
-          "border-color": "#692f17"
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
         }
       }
     }
   },
-        });
-      });
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Gill Sans, sans-serif",
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17",
+          "background-color": "#deb8b7"
+        },
+        "background-color": "#f7cccb",
+        ":focus": {
+          "background-color": "#deb8b7"
+        },
+        "border-radius": "13px",
+        "padding-left": "58px",
+        "padding-right": "58px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
     }
-  })();
-  /*]]>*/
-  </script>
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Gill Sans, sans-serif",
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17",
+          "background-color": "#deb8b7"
+        },
+        "background-color": "#f7cccb",
+        ":focus": {
+          "background-color": "#deb8b7"
+        },
+        "border-radius": "13px"
+      },
+      "title": {
+        "color": "#692f17"
+      },
+      "header": {
+        "color": "#692f17"
+      },
+      "lineItems": {
+        "color": "#692f17"
+      },
+      "subtotalText": {
+        "color": "#692f17"
+      },
+      "subtotal": {
+        "color": "#692f17"
+      },
+      "notice": {
+        "color": "#692f17"
+      },
+      "currency": {
+        "color": "#692f17"
+      },
+      "close": {
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17"
+        }
+      },
+      "empty": {
+        "color": "#692f17"
+      },
+      "noteDescription": {
+        "color": "#692f17"
+      },
+      "discountText": {
+        "color": "#692f17"
+      },
+      "discountIcon": {
+        "fill": "#692f17"
+      },
+      "discountAmount": {
+        "color": "#692f17"
+      },
+      "cart": {
+        "background-color": "#f7cccb"
+      },
+      "footer": {
+        "background-color": "#f7cccb"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "empty": "Your cart is empty. ",
+      "button": "Checkout"
+    },
+    "contents": {
+      "note": true
+    },
+    "popup": false
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Gill Sans, sans-serif",
+        "background-color": "#f7cccb",
+        ":hover": {
+          "background-color": "#deb8b7"
+        },
+        ":focus": {
+          "background-color": "#deb8b7"
+        }
+      },
+      "count": {
+        "color": "#692f17",
+        ":hover": {
+          "color": "#692f17"
+        }
+      },
+      "iconPath": {
+        "fill": "#692f17"
+      }
+    }
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#692f17"
+      },
+      "title": {
+        "color": "#692f17"
+      },
+      "price": {
+        "color": "#692f17"
+      },
+      "fullPrice": {
+        "color": "#692f17"
+      },
+      "discount": {
+        "color": "#692f17"
+      },
+      "discountIcon": {
+        "fill": "#692f17"
+      },
+      "quantity": {
+        "color": "#692f17"
+      },
+      "quantityIncrement": {
+        "color": "#692f17",
+        "border-color": "#692f17"
+      },
+      "quantityDecrement": {
+        "color": "#692f17",
+        "border-color": "#692f17"
+      },
+      "quantityInput": {
+        "color": "#692f17",
+        "border-color": "#692f17"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 
 
 

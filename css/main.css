@@ -349,6 +349,12 @@ article img {
   }
 }
 
+@media (min-width: 768px) {
+  .instagramheader1 h2 {
+    margin-top: 200px;
+  }
+}
+
 .instagramheader2 {
   margin-top: 90px;
   text-align: center;

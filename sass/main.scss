@@ -366,6 +366,7 @@ article img{
   width: 50%;
   height: auto;
   margin-top: 20px;
+
 }
 
 .footertags a{
@@ -400,6 +401,9 @@ text-decoration: none;
 }
 
 .footertags2{
+  @media(min-width:768px){
+  margin-left: 180px;
+}
   @media(min-width:768px){
   margin-left: 180px;
 }
@@ -618,8 +622,14 @@ span{
   text-align: center;
   @media(max-width: 768px){
     font-size: 13px;
+    margin-top: -30px;
   }
   @media(min-width: 768px){
     font-size: 14px;
+    margin-top: -20px;
+  }
+  @media(min-width: 992px){
+    font-size: 14px;
+    margin-top: -30px;
   }
 }

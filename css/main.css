@@ -407,13 +407,10 @@ article img {
 }
 
 .instagramlogo {
-  width: 100%;
+  width: 50%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin-top: 20px;
 }
-
 
 .footertags a {
   color: #fdf8f2;
@@ -452,6 +449,12 @@ article img {
 .footertags2 {
   margin-top: -200px;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .footertags2 {
+    margin-left: 180px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -712,15 +715,20 @@ span {
 @media (max-width: 768px) {
   .copyright {
     font-size: 13px;
+    margin-top: -30px;
   }
 }
 
 @media (min-width: 768px) {
   .copyright {
     font-size: 14px;
+    margin-top: -20px;
   }
 }
 
-.touch{
-  color: #fff;
+@media (min-width: 992px) {
+  .copyright {
+    font-size: 14px;
+    margin-top: -30px;
+  }
 }

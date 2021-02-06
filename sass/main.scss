@@ -151,12 +151,39 @@ margin: 0 auto;
 
 .shopbutton1:hover{
   color: $primarycolor;
-  background-color: $thirdcolor;
+  background-color: #fff;
   border: 0;
   padding: 3px;
   padding-left: 12px;
   padding-right: 12px;
   text-decoration: none;
+}
+
+.happy1{
+  @media(max-width: 768px){
+    display:none;
+  }
+  @media(min-width: 768px){
+    display:block;
+  }
+  @media(min-width: 1200px){
+    display:none;
+  }
+}
+
+.happysmall{
+  @media(min-width: 768px){
+    display:none;
+  }
+}
+
+.happylarge{
+  @media(max-width: 1200px){
+    display:none;
+  }
+  @media(min-width: 1200px){
+    display:block;
+  }
 }
 
 .shopbutton1 a:hover{
@@ -232,6 +259,10 @@ h2{
   color: #fff7ee;
 }
 
+.dropdown-item a{
+    padding-bottom: 100px;
+}
+
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{ color: #f7cccb;  }
@@ -289,6 +320,9 @@ article img{
   margin-top: 230px;
   text-align: center;
   font-weight: bold;
+  @media (max-width: 768px){
+    margin-top: 100px;
+  }
 }
 
 .instagramheader2 {

@@ -301,6 +301,7 @@ article img{
 .meetowner{
   @media (max-width: 576px){
     padding-top: 10px;
+font-size: 18px;
   }
   @media (min-width: 576px){
     padding-top: 30px;
@@ -310,7 +311,13 @@ article img{
   }
   margin-top: 50px;
   font-weight: bold;
-  font-size: 10px;
+
+}
+
+.meetparagraph{
+  @media (max-width: 576px){
+  font-size: 13px;
+}
 }
 
 .instagramheader h2{

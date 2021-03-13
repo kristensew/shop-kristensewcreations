@@ -312,12 +312,12 @@ article img {
 .meetowner {
   margin-top: 50px;
   font-weight: bold;
-  font-size: 10px;
 }
 
 @media (max-width: 576px) {
   .meetowner {
     padding-top: 10px;
+    font-size: 18px;
   }
 }
 
@@ -330,6 +330,12 @@ article img {
 @media (min-width: 768px) {
   .meetowner {
     padding-top: 130px;
+  }
+}
+
+@media (max-width: 576px) {
+  .meetparagraph {
+    font-size: 13px;
   }
 }
 

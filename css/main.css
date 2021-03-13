@@ -288,6 +288,12 @@ input:focus {
   }
 }
 
+@media (min-width: 992px) {
+  .mainshopbuttonindex {
+    margin-bottom: 50px;
+  }
+}
+
 .openingmessage h1 {
   margin-bottom: -8px;
 }

@@ -263,6 +263,15 @@ input:focus {
   }
 }
 
+@media (max-width: 576px) {
+  .mainshopbuttonindex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
 .openingmessage h1 {
   margin-bottom: -8px;
 }

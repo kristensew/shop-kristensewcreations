@@ -266,8 +266,13 @@ h6{
 }
 }
 
-.mainshop{
-  
+.mainshopbuttonindex{
+  @media (max-width: 576px){
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 }
 
 

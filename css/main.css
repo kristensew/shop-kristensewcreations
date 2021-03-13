@@ -312,7 +312,7 @@ article img {
 .meetowner {
   margin-top: 50px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 10px;
 }
 
 @media (max-width: 576px) {

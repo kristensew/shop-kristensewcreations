@@ -235,9 +235,10 @@ color: #692f17;
 
 
 .openingmessage {
-  margin-top: 150px;
+  margin-top: 200px;
   h1, h2, h6{
   color: #fff;
+  padding-bottom: 10px;
 
 }
 
@@ -246,12 +247,27 @@ color: #692f17;
   font-size: 25px;
   margin-bottom: 10px;
   margin-top: -70px;
+  text-align: center;
+  padding-bottom: 10px;
+
 }
 
 h2{
   font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+h6{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 14px;
 }
 }
+}
+
+.mainshop{
+  
 }
 
 

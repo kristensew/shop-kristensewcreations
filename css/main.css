@@ -263,7 +263,7 @@ input:focus {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .mainshopbuttonindex {
     display: block;
     margin-left: auto;

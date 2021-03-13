@@ -239,6 +239,9 @@ color: #692f17;
   h1, h2, h6{
   color: #fff;
   padding-bottom: 10px;
+  @media (min-width: 768px){
+    text-align: center;
+  }
 
 }
 
@@ -264,6 +267,7 @@ h6{
   font-size: 14px;
 }
 }
+
 }
 
 .mainshopbuttonindex{
@@ -273,6 +277,12 @@ h6{
   margin-right: auto;
   text-align: center;
   margin-bottom: 260px;
+}
+@media (min-width: 768px){
+  text-align: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 }
 

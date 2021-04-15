@@ -784,3 +784,14 @@ span {
     margin-top: -30px;
   }
 }
+
+.mobiletopmessage {
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .mobiletopmessage {
+    display: none;
+  }
+}

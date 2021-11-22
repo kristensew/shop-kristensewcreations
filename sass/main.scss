@@ -20,6 +20,16 @@ h1, h2, h3, h4, H5, H6,p{
   color: #692f17;
 }
 
+.strike{
+  text-decoration: line-through;
+
+}
+
+.nonstrike{
+  font-style: normal;
+  text-decoration: none;
+}
+
 #topbar{
   background-color: #f7cccb;
   @media (max-width: 768px){
